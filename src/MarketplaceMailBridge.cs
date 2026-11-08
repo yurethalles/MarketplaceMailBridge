@@ -12,7 +12,7 @@ namespace Dorn.MarketplaceMailBridge
     {
         public const string PluginGuid = "dorn.marketplace-mail-bridge";
         public const string PluginName = "Marketplace Mail Bridge";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "1.0.0";
 
         private ConfigEntry<int> _expiryMinutes;
         private ConfigEntry<int> _maximumStack;
