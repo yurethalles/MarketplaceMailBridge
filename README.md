@@ -1,9 +1,9 @@
 # Marketplace Mail Bridge
 
-Mod de servidor para Valheim que adiciona comandos administrativos para enviar itens pelo sistema de correios do Marketplace, diretamente pelo console do servidor ou RCON.
+Server-side Valheim mod that adds administrative commands to send items through the Marketplace mail system, directly from the server console or RCON.
 
-Envie recompensas, itens de loja, brindes e entregas automáticas para jogadores online ou offline usando a SteamID. As mensagens ficam armazenadas no correio nativo do Marketplace até serem resgatadas pelo jogador.
+Send rewards, store items, gifts, and automated deliveries to online or offline players using their SteamID. Messages remain stored in the native Marketplace mailbox until claimed by the player.
 
-O comando é restrito a administradores e cria entregas oficiais do servidor, sem permitir que jogadores comuns gerem itens.
+The command is restricted to administrators and creates official server deliveries, preventing regular players from generating items.
 
-Requer **Marketplace and Server NPCs Revamped**.
+Requires **Marketplace and Server NPCs Revamped**.
