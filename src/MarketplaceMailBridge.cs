@@ -12,7 +12,7 @@ namespace Dorn.MarketplaceMailBridge
     {
         public const string PluginGuid = "dorn.marketplace-mail-bridge";
         public const string PluginName = "Marketplace Mail Bridge";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         private ConfigEntry<int> _expiryMinutes;
         private ConfigEntry<int> _maximumStack;
@@ -33,7 +33,7 @@ namespace Dorn.MarketplaceMailBridge
             _senderName = Config.Bind(
                 "Mail",
                 "SenderName",
-                "Glitnir",
+                "Servidor",
                 "Name displayed as the sender in Marketplace mail.");
 
             new Terminal.ConsoleCommand(
